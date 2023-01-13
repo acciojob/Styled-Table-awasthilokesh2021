@@ -1,1 +1,19 @@
 /* your code */
+#tbl{
+	border:1px solid black;
+	border-radius:8px;
+	border-collapse: collapse;
+}
+#p1{
+	text-align: left;
+	background-color:blue;
+	color:white;
+}
+#p3,#p5{
+	background-color:gray;
+	color:white;
+}
+#p1 #p2 #p3 #p4 #p5{
+	margin:8px 8px;
+	padding:2px 4px;
+}
